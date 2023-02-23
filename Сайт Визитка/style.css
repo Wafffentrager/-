@@ -1,6 +1,8 @@
 body, head{
     margin: 0;
     height: auto;
+    width: auto;
+    background-color: #d62828;
 }
 
 .header-content{
@@ -27,11 +29,79 @@ body, head{
 .header-nav{
     list-style: none;
     display: flex;
-    margin-left: 550px;
+    text-align: center;
+}
+
+.header-nav__item :hover{
+    color: #d62828;
+    transition-duration: 0.5s;
+}
+
+.head{
+    margin-left: 1000px;
+    color: white;
+    text-transform: uppercase;
 }
 
 .sp{
-    color: #e3b873;
+    color: #d62828;
+}
+
+h1, h2, h3{
+    text-align: center;
     text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.about{
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9)), url("https://i.pinimg.com/originals/b7/58/fd/b758fd06401b472b255b7a6d6178dcf1.jpg");
+    height: 300px;
+}
+
+.me{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.main{
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100%;
+}
+
+p a{
+    color: #d62828;
+}
+
+.price {
+    list-style: none;
+    align-items: center;
+}
+
+.file{
+    text-decoration: none;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.cube{
+    text-align: center;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    border: #d62828;
+}
+
+img{
+    margin-right: 10px;
 }
 
