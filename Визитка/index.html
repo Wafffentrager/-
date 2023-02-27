@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="site.js"></script>
+    <style>
+        h1, h2, h3{
+            font-family: 'Roboto Mono', monospace;
+            font-size: 40px;
+        }
+
+        header{
+            font-family: 'Roboto Mono', monospace;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <header class="header">
+            <div class="content header-content">
+                <nav class="header-nav">
+                    <ul class="header-nav">
+                        <li class="header-nav__item"><a href="#обо мне">Обо мне</a></li>
+                        <li class="header-nav__item"><a href="#проекты">Проекты</a></li>
+                        <li class="header-nav__item"><a href="#цена">Прайс-Лист</a></li>
+                        <li class="header-nav__item"><a href="#контакты">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </header>
+    <main class="main">
+        <section>
+            <h1>Разработка сайтов</h1>
+            <div class="wrapper">
+                <p class="me">Здесь вы можете заказать сайт разной сложности и получить готовый продукт. Поверьте, результат вас не разочарует
+                    В ином случае, деньги вернуться к владельцу.
+                   <a href="#контакты"><button class="custom-btn btn-5">ЗАКАЗАТЬ СЕЙЧАС!</button></a>
+                </p>
+                <video loop controls>
+                    <source src="svg/anim500.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <section class="about">
+                <h2 id = "обо мне">Обо мне</h2>
+                <p class="me">Верстальщик сайтов уровня Junior. 
+                    Немного обо мне, а после сразу к делу:<br>
+                    Зовут меня Георгий, 17 лет и профи своего дела. Лучший Junior Dev. <br>
+                    Родился и живу в Москве, так что когда пригласите заключать контракт, то жду в ресторане Москва-Сити.<br>
+                    Какая вы компания без хорошего, функционального и красивого сайта? Верный ответ плохая. Мои сайты восхищают как пользователя, так и того кто увидит код. Форматирование приятно глазу и не взывает отторжения.<br>
+                    Пока вы это читаете, ваши конкуренты уже забирают ваших клиентов, почему же? Потому что они заказали сайт у меня. <br>
+                    Сделка такова, вам шикарный сайт, новые возможности, довольные клиенты, а мне денежку.
+                </p>
+        </section>
+
+        <section>
+            <h2 id = "проекты">Проекты</h2>
+            <p class="me">
+                Файл, где описаны мои проекты вы можете ознакомится в данном <a href="D:\Колледж\ИЭ/Портфолио.docx" download="" class="file">здесь</span></a>.<br>
+                Там так же присутвует ссылка на мой <a href="https://github.com/Wafffentrager" class="file" target="_blank">GitHub</a>.
+                Это поможет вам понять мой уровень и способности и после этого сдлеать у меня заказ.
+            </p>
+        </section>
+
+        <section>
+            <h3 id = "цена">Прайс-Лист:</h3>
+            <hr>
+
+            <div>
+                <div class="me wrapper">
+                    <div>
+                        <p><span class="sp">ЛЕНДИНГ</span> <br> От 10 дней <br> 
+                        <p class="an">ОДНОСТРАНИЧНЫЙ САЙТ<br>ПОДХОДИТ ДЛЯ РЕКЛАМЫ,<br>ПРОДАЖИ ИЛИ ПРЕЗЕНТАЦИИ<br>НЕБОЛЬШОГО КОЛИЧЕСТВА<br>ТОВАРОВ И УСЛУГ.</p>
+                        </p>
+                    </div>
+                    <div class="include">
+                        <p>
+                            Что входит:
+                            <ul>
+                                <li>Анализ пожеланий</li>
+                                <li>Разработка прототипа</li>
+                                <li>Написание кода и тестирование</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="price">
+                        <p>Стоимость: <span class="sp">2500</span> рублей</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div>
+                <div class="me wrapper">
+                    <div>
+                        <p><span class="sp">САЙТ</span><br> От 14 дней <br> 
+                        <p class="an">МНОГОСТРАНИЧНЫЙ САЙТ СО<br>СЛОЖНОЙ СТРУКТУРОЙ ДЛЯ<br>ПУБЛИКАЦИИ БОЛЬШОГО<br>КОЛИЧЕСТВА ИНФОРМАЦИИ.</p>
+                        </p>
+                    </div>
+                    <div class="include">
+                        <p>
+                            Что входит:
+                            <ul>
+                                <li>Анализ пожеланий</li>
+                                <li>Расстановка элементов по страницам</li>
+                                <li>Разработка прототипа</li>
+                                <li>Написание кода и тестирование</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="price">
+                        <p>Стоимость: <span class="sp">5000</span> рублей</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <h3 id="контакты">Контакты</h3>
+        <div>
+            <div>
+                <p class = "text">Номер телефона: <span class="sp">8 (993) 335 91 85</span></p>
+                <a class="file" target="_blank" href="https://vk.com/wafffentrager">Мой ВК</a> <br>
+                <a class="file" target="_blank" href="https://t.me/Wafffentrager">Моя Телега</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
